@@ -1,16 +1,19 @@
 // array of questions for user
+const iq = require("inquirer");
+
 const questions = [
 
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
+const writeToFile = (fileName, data)  => {
 
 }
 
-// function call to initialize program
-init();
+// iife init
+( () => {
+    console.log("Init!");
+})();
+
+
+
