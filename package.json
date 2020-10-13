@@ -1,0 +1,28 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "cli readme md generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jack murphy",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summer-mute/readme_generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "md",
+    "homework"
+  ],
+  "bugs": {
+    "url": "https://github.com/summer-mute/readme_generator/issues"
+  },
+  "homepage": "https://github.com/summer-mute/readme_generator#readme"
+}
