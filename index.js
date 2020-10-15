@@ -1,7 +1,7 @@
 // array of questions for user
 const inquirer = require("inquirer");
 const fs = require("fs");
-const gM = require("./generateMarkdown.js")
+const generateMarkdown = require("./generateMarkdown.js")
 
 const questions = inquirer
   .prompt([
@@ -14,12 +14,6 @@ const questions = inquirer
       type: "input",
       message: "Description?",
       name: "description",
-    },
-    {
-      // TODO this should allow multiple intputs
-      type: "input",
-      message: "Table of Content?",
-      name: "table_of_contents",
     },
     {
       type: "input",
@@ -55,7 +49,7 @@ const questions = inquirer
   .then((response) => {
     console.log(response);
     const filename = README_DEMO.md;
-    fs.appendFile(filename, gM(response), (err) => {
+    fs.writeFile(filename, generateMarkdown(response), (err) => {
       if (err) {
         console.log(err);
       } else {
