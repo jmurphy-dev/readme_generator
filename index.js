@@ -48,7 +48,7 @@ const questions = inquirer
   ])
   .then((response) => {
     console.log(response);
-    const filename = README_DEMO.md;
+    const filename = 'README_DEMO.md';
     fs.writeFile(filename, generateMarkdown(response), (err) => {
       if (err) {
         console.log(err);
