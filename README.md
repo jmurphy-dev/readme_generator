@@ -1,8 +1,8 @@
-# ok
+# README Generator
   <a href=""><img src="https://img.shields.io/npm/l/ok"></a>
   ---
 
-ok
+This is a node cli tool to generate readme files by answering prompts.
 
 ## Table of Contents
   * [Installation](#installation)
@@ -12,14 +12,15 @@ ok
   * [Tests](#tests)
   * [Questions](#questions)
 # Installation
-  ok
+    To install clone this repo.
 # Usage
-  ok
+    To use this program cd to the clone directory and run ```node index.js```
 # License
   ok
 # Contributing
-  ok
+  summer-mute
+  https://github.com/summer-mute
 # Tests
-  ok
+  There are not any tests planned
 # Questions  
-  ok
+  ?
