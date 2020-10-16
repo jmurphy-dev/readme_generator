@@ -14,9 +14,9 @@ This is a node cli tool to generate readme files by answering prompts.
 # Installation
     To install clone this repo.
 # Usage
-    To use this program cd to the clone directory and run ```node index.js```
+    To use this program cd to the clone directory and run node index.js
 # License
-  ok
+  MIT
 # Contributing
   summer-mute
   https://github.com/summer-mute
