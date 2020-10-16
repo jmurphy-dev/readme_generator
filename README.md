@@ -1,8 +1,8 @@
- # README Generator
-  
+ #ok
+  https://img.shields.io/npm/l/ok
   ---
 
-This is a program that generates readme.
+ok
 
 ## Table of Contents
   * [Installation](#installation)
@@ -12,14 +12,14 @@ This is a program that generates readme.
   * [Tests](#tests)
   * [Questions](#questions)
 # Installation
-  git pull from here
+  ok
 # Usage
-  node index.js
+  ok
 # License
-  mit
+  ok
 # Contributing
-  do whatever
+  ok
 # Tests
-  nah
+  ok
 # Questions  
-  plz no
+  ok
