@@ -1,5 +1,5 @@
  #ok
-  https://img.shields.io/npm/l/ok
+  <a href="https://img.shields.io/npm/l/ok">
   ---
 
 ok
